@@ -4,30 +4,88 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap" rel="stylesheet">
 
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.5.js'></script>
 	<style>
 
 body{
-	  
+	padding:0;
+	margin:0;
+	  background-image: url("img/malta.jpeg");  
+	  background-repeat: no-repeat;
+	  background-size:cover;
+	  background-blend-mode: lighten;
 	  font-size: 20px;
 	  font-family: 'Verdana', sans-serif;
 	  background-color:black;
-	  color:white;
+	  color:black;
 }
 
-h1{
-	  font-size: 60px;
-	  font-family: 'Recursive', sans-serif;
-}
-
-.teaser{
-	  font-size: 27px;
-	 font-family: 'Verdana', sans-serif;
-}
 
 a{
 	 color:white;
 	 text-decoration: none;
-	 font-size: 13px;
+}
+.logo{
+	position:absolute;
+	left:5px;
+	top:5px;
+}
+.name{
+	position:absolute;
+	left:200px;
+	top:5px;
+	font-size: 90;
+	font-family: 'Recursive', sans-serif;
+	color:#666666;
+}
+.nameSmall{
+	position:absolute;
+	left:520px;
+	top:65px;
+	font-size: 30;
+	font-family: 'Recursive', sans-serif;
+	color:#666666;
+}
+.teaser{
+	padding-left:3px;
+	padding-right:3px;
+	 font-size: 22px;
+	 font-family: 'Verdana', sans-serif;
+	 position:absolute;
+	left:5px;
+	top:128px;
+	color:#000000;
+	background-color: #ffffff;
+	opacity:0.5;
+	border-color: pink;
+	border-width: 1px;
+	border-style: outset;
+}
+
+.bulletpoints{
+	 font-size: 37px;
+	 font-family: 'Verdana', sans-serif;
+	 position:absolute;
+	left:25px;
+	top:230px;
+	color:white;
+}
+
+.contact{
+	font-size: 23px;
+	font-family: 'Verdana', sans-serif;
+	position:absolute;
+	left:70px;
+	top:750px;
+	color:#DDDDDD;
+}
+.copy{
+	font-size: 13px;
+	font-family: 'Verdana', sans-serif;
+	position:absolute;
+	left:70px;
+	top:800px;
+	color:#DDDDDD;
 }
 
 	</style>
@@ -35,12 +93,29 @@ a{
 </head>
 
 <body>
-	<center>
-		<h1>fintex.one</h1>
-		<div class="teaser">We help to build decentralized finance</div>
-		<br/>
-		<img src="img/crypto-currency.jpeg" width=780/>
-		<br/><br/>
-		<a href="mailto:info@fintex.com">info@fintex.com, Malta 2021</a>
-	</center>
+		<span class ="logo"><img  src="img/crypto-currency.jpeg" width=160/></span>
+
+		<span class="name">FINTEX</span>
+		<span class="nameSmall">.one</span>
+
+		<span class="teaser">Our expertice is building software solutions for decentralized finance also known as DeFi</span>
+		<span class="bulletpoints">
+			<ul>
+				<li>Blockchain</li>
+				<li>Smart Contracts</li>
+				<li>DeFi</li>
+				<li>DApps</li>
+				<li>ICOs</li>
+				<li>P2P</li>
+				<li>Cryptocurrency</li>
+				<li>Distributed Ledger</li>
+				<li>Blockchain-as-a-Service (BaaS) Azure - AWS - GCP</li>
+				<li>Securing highly distributed applications</li>
+			</ul>
+	    </span>
+		<span class="contact">Contact: <a href="mailto:info@fintex.one">info@fintex.one</a></span>
+
+		<span class="copy">© Fintex is a civil partnership constituted under the Laws of Malta. A list of partners and associates is available
+for inspection at St Ursula Street, Valletta VLT 1236, Malta.  |  Terms of Use  |  Privacy Policy  |  Cookie Policy</a></span>
+
 </body>
